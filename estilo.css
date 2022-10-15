@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    text-align: center;
+    background-color: cyan;
+    color: black;
+    padding: 20px;
+}
+
+nav ul{
+background-color: yellow;
+width: 100%;
+list-style-type: none;
+text-align: center;
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover {
+    background-color: red;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+border-radius: 50%;
+    object-fit: cover;
+}
+.sobreleonardo {
+    display: flex;
+    margin: 60px;
+}
+
+
+
+.articulos {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.menu-secundario {
+    width: 20%;
+    margin-top: 60px;
+}
+
+.menu-secundario {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+
+    
+}
+
+header a{
+    text-align: right;
+}
+
+header{
+     background-image: url(img/programador.png);
+     background-position: center, center;
+     background-size: cover;
+     height: 50vh;
+} 
+
+.buttons{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
